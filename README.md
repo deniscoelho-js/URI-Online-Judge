@@ -1,1 +1,1 @@
-# URI-Online-Judge
+## Resolução de exercícios utilizando a linguagem Typescript
