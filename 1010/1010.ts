@@ -9,7 +9,7 @@ const readline = prompt()
 
 const codig1: string = readline('Digite o codigo do produto: ')
 const unid1: number = +readline(`Quantas unidades do(a) ${codig1}? `)
-const prec1: number = +readline('Qual o preco? ')
+const prec1: number = +readline('Qual o preço? ')
 
 const item1 = new Item(codig1, unid1, prec1)
 
