@@ -13,8 +13,6 @@ const prec1: number = +readline('Qual o preço? ')
 
 const item1 = new Item(codig1, unid1, prec1)
 
-
-
 const codig2: string = readline('Digite o codigo do produto: ')
 const unid2: number = +readline(`Quantas unidades do(a) ${codig2}? `)
 const prec2: number = +readline('Qual o preco? ')
