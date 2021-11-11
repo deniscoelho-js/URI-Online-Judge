@@ -9,7 +9,7 @@ const peso = [2, 3, 4, 1]
 const notas = peso.map((nota, indice) => {
     return(
         nota = +readline('Digite a nota: ') * peso[indice]
-    )    
+    )
 })
 
 
