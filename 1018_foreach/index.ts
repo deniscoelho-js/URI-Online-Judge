@@ -1,5 +1,5 @@
 // https://www.beecrowd.com.br/judge/en/problems/view/1018
-
+// compilar ts-node 1018_foreach
 import prompt from 'prompt-sync'
 
 const readline = prompt()

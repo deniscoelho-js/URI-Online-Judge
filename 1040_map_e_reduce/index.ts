@@ -1,4 +1,6 @@
 // https://www.beecrowd.com.br/judge/en/problems/view/1040
+//  compilar ts-node1040_map_e_reduce
+
 import prompt from "prompt-sync";
 import { media, reduzir, resultado } from "./helpers";
 
