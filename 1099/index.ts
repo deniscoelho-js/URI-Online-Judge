@@ -1,13 +1,26 @@
 import prompt from 'prompt-sync'
+console.clear()
+
+let i, j, entrada, temp, a, b, x = 0
 
 const readline = prompt()
 
-const n  = +readline('Digite a quantidade de numeros: ')
+entrada = +readline('Digite a quantidade de números: ')
 
-let x = 0
-let y = 0
+for(i = 0; i< entrada; i++){
+    a = +readline(`Digite o valor do ${i + 1}º X: `)
+    b = +readline(`Digite o valor do ${i + 1}º Y: `)
+    
+    if(a > b){temp = a; a = b; b = temp}
 
-for(let i = 0; i <= n; i++ ){
-    x = +readline(`Digite o ${i} X numero: `)
-    y = +readline(`Digite o ${i} Y numero: `)
+    if(a % 2 === 0){ a--}
+
+    a += 2
+
+    for(j = a; j < b; j+=2){
+        x += j
+    }
+
+    console.log(x)
+    x = 0
 }
