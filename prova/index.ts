@@ -1,3 +1,11 @@
-var x = [{nome: 'joao tadeu', idade: '19 anos', sexo: 'masculino'}];
+import prompt from 'prompt-sync'
 
-console.log(typeof(x))
+console.clear()
+
+const readline = prompt()
+
+let numero
+
+while(numero !== 0){
+  numero = +readline('Digite o numero: ')
+}
