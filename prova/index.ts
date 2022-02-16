@@ -1,11 +1,15 @@
-import prompt from 'prompt-sync'
-
 console.clear()
 
-const readline = prompt()
+let resultado
 
-let numero
-
-while(numero !== 0){
-  numero = +readline('Digite o numero: ')
+function func(x: number, y: number): number {
+  if(y===0){
+    return x
+  } else{
+    return func(y, x%y)
+  }
 }
+
+resultado = func(9,3)
+
+console.log(resultado)
